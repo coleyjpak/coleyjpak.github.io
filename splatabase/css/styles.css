@@ -1,0 +1,83 @@
+:root {
+    --accent: #8af;
+    --darkaccent: #0f53ff;
+    --darkeraccent: #00247e;
+    --lightcolorbg: #ccd8ff;
+}
+body {
+    background-color: gray;
+}
+h1, h2 {
+    font-weight: bold;
+    border-bottom: 4px solid var(--accent);
+}
+a:link {
+    color: var(--darkaccent);
+}
+a:visited {
+    color: var(--darkeraccent);
+}
+.titlediv {
+    background-image: url("https://cdn.wikimg.net/en/splatoonwiki/images/0/05/S3_Banner_11053.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    padding: 2rem;
+    z-index: 1;
+}
+.titlediv h1 {
+    font-size: 48px;
+    font-weight: bold;
+    border: none;
+}
+.titlediv p {
+    font-size: 18px;
+}
+.cont-main {
+    background-color: white;
+    min-height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: 4px solid var(--accent);
+    border-right: 4px solid var(--accent);
+    box-shadow: 0 1rem 2rem #000b;
+}
+.wrapper {
+    overflow-x: scroll;
+}
+table, th, td {
+    border: 1px solid #0004;
+}
+table {
+    border-collapse: collapse;
+    background-color: var(--lightcolorbg);
+}
+td, th {
+    padding: 0.5rem;
+}
+.img-query {
+    max-width: 4rem;
+}
+.statbar {
+    background-color: lightgray;
+    border: 1px solid gray; 
+    border-radius: 8px;
+    max-width: 320px;
+    height: 2rem;
+}
+.statbar-fill {
+    background-color: var(--accent);
+    border: 2px solid var(--darkaccent);
+    border-radius: 8px;
+    height: 100%;
+}
+.statbar-text {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
